@@ -135,7 +135,7 @@
     /**
      * route - MARQUEUR - marquerF un voisin comme favoris  a travers son  id - MARQUEUR method
      */
-    $app->get
+    $app->put
     (
         '/api/voisinF/{id}', 
         function (Request $request, Response $old_response) {
@@ -169,7 +169,7 @@
     /**
      * route - MARQUEUR - marquerNF un voisin comme non favoris  a travers son  id - MARQUEUR method
      */
-    $app->get
+    $app->put
     (
         '/api/voisinNF/{id}', 
         function (Request $request, Response $old_response) {
