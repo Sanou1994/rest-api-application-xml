@@ -4,5 +4,5 @@ Nous utiliserons un mini Framework PHP pour nous faciliter l’implémentation (
 Pour demarer il faut creer une base de donnee du nom de dbvoisins et une table du nom de T_Voisins comme colonne nom(varchar),telephone(varchar),adresse(varchar),detail(varchar),id(auto-indement),favoris(boolean) et apres heberger dans un server le dossier rest-api-application-xml-master 
 Apres rouvrir le fichier src/configs/Acces vous changer uniquement le login et le password.
 Apres l'API est bien connecter.
-Et le chemin de l'API en local sera http://localhost/rest-api-application-xml/public/ si le server est en local.
+Et le chemin de l'API en local sera http://localhost/rest-api-application-xml/public/ si le server est en local.(personnellement avec xamp c'est plus simple il suffit de deposer le dossier rest-api-application-xml/public dans le dossier htdocs)
 
